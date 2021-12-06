@@ -1,0 +1,52 @@
+/* variable */
+:root {
+	--black: hsl(0, 0%, 0%);
+	--white: hsl(0, 0%, 100%);
+	--green: hsl(140, 93%, 12%);
+	--pink: hsl(4, 75%, 76%);
+	--light-pink: hsl(8, 100%, 94%);
+}
+
+/* rebot */
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: "Roboto", sans-serif;
+	font-size: 62.5rem;
+}
+body {
+	margin: 0;
+	font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-family: "Super Display";
+}
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+button {
+	cursor: pointer;
+}
+
+/* wrapper, container */
+.container {
+	max-width: 1326px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* header */
